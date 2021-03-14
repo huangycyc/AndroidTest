@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="第二个activity"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击" />
+
+        <Button
+            android:id="@+id/buttonVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="放视频" />
+
+        <Button
+            android:id="@+id/buttonBaidu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="百度" />
+
+        <Button
+            android:id="@+id/buttonUi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UI界面" />
+
+        <Button
+            android:id="@+id/buttonLocalMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本地音乐播放" />
+        <Button
+            android:id="@+id/btn_notebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记事本" />
+        <Button
+            android:id="@+id/btn_tester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存图片操作"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
