@@ -107,4 +107,22 @@ public class MainActivity2 extends BaseActivity {
             }
         });
     }
+
+    /**
+     * 打开广播测试
+     * @param view
+     */
+    public void openBroadCast(View view) {
+        Intent intent_MyBroadcast = new Intent(MainActivity2.this,MyBroadcastActivity.class);
+        startActivity(intent_MyBroadcast);
+    }
+
+    /**
+     * 进入读取本机联系人功能
+     * @param view
+     */
+    public void readContacts(View view) {
+        Intent intentContacts = new Intent(MainActivity2.this,ContactsMainActivity.class);
+        startActivity(intentContacts);
+    }
 }

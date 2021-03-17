@@ -72,5 +72,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="数据库增删改查"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openBroadCast"
+            android:text="广播"/>
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="readContacts"
+            android:text="读取本机联系人信息"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
