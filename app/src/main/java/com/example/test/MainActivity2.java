@@ -17,6 +17,8 @@ public class MainActivity2 extends AppCompatActivity {
 
 
     private  Button btn_tester =null;
+    private  Button btn_remember_password_demo = null;
+    private Button btn_DBDemo = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +27,8 @@ public class MainActivity2 extends AppCompatActivity {
         Intent intent = getIntent();
         String data = intent.getStringExtra("extra_data");
         btn_tester = (Button)findViewById(R.id.btn_tester);
+        btn_remember_password_demo = (Button) findViewById(R.id.btn_remember_password_demo);
+        btn_DBDemo = findViewById(R.id.btn_DBDemo);
         TextView textView =(TextView)findViewById(R.id.textView);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -86,6 +90,19 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent_tester);
             }
         });
-
+        btn_remember_password_demo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_remember_psw = new Intent(MainActivity2.this,RememberPasswordDemoActivity.class);
+                startActivity(intent_remember_psw);
+            }
+        });
+        btn_DBDemo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_DBDemo = new Intent(MainActivity2.this,DBDemoActivity.class);
+                startActivity(intent_DBDemo);
+            }
+        });
     }
 }

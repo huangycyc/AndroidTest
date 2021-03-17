@@ -13,7 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Test">
-        <activity android:name=".TesterActivity"></activity>
+        <activity android:name=".DBDemoActivity"></activity>
+        <activity android:name=".RememberPasswordDemoActivity" />
+        <activity android:name=".TesterActivity" />
         <activity android:name=".NotebookActivity" />
         <activity android:name=".LocalMusic" />
         <activity android:name=".Ui" />

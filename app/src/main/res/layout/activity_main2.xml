@@ -62,5 +62,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="保存图片操作"/>
+        <Button
+            android:id="@+id/btn_remember_password_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="记住密码"/>
+        <Button
+            android:id="@+id/btn_DBDemo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数据库增删改查"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
