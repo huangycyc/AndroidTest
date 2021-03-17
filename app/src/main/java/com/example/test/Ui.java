@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Ui extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class Ui extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

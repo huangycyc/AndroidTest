@@ -11,7 +11,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import  com.example.test.database.MyDBHelper;
-public class DBDemoActivity extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class DBDemoActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

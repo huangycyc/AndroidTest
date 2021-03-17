@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class login extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class login extends BaseActivity {
 
 
     @Override

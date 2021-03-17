@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class tea_timer extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class tea_timer extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

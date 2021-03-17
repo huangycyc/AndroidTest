@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
-public class MainActivity3 extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class MainActivity3 extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

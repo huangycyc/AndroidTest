@@ -13,7 +13,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-public class MainActivity2 extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class MainActivity2 extends BaseActivity {
 
 
     private  Button btn_tester =null;

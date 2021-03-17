@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class LocalMusic extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class LocalMusic extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

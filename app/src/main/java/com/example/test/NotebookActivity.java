@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.test.tools.BaseActivity;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
@@ -19,7 +21,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class NotebookActivity extends AppCompatActivity {
+public class NotebookActivity extends BaseActivity {
     private Button btnSave;
     private EditText etContent;
     @Override

@@ -11,7 +11,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class MainActivity extends BaseActivity {
 
 
     @Override

@@ -11,11 +11,13 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.example.test.tools.BaseActivity;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class TesterActivity extends AppCompatActivity {
+public class TesterActivity extends BaseActivity {
 
     private ImageView imageView = null;
     @Override

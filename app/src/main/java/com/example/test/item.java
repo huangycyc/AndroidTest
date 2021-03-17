@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class item extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class item extends BaseActivity {
     private String[] data={"Apple","Banana","Orange","Watermelon","Pear","Grape","Strawberry","Cherry","Mango",
             "Apple","Banana","Orange","Watermelon","Pear","Grape","Strawberry","Cherry","Mango"};
     @Override

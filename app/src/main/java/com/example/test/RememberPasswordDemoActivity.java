@@ -11,7 +11,9 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class RememberPasswordDemoActivity extends AppCompatActivity {
+import com.example.test.tools.BaseActivity;
+
+public class RememberPasswordDemoActivity extends BaseActivity {
     private SharedPreferences preferences;//key,value 键值对方式存储数据
     private EditText etUsername,etPsw;
     private CheckBox checkBox;
